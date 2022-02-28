@@ -1,0 +1,18 @@
+body {
+    background-color: #aeb8cc;
+    color: white;
+    padding: 40px;
+    font-family: Sans-Serif;
+    text-align: center;
+  }
+  
+  .form-submit-button {
+    background:#c9ced1;
+    color:rgb(1, 0, 5);
+    border-style:outset;
+    border-color:#e8ecee;
+    height:30px;
+    width:100px;
+    font:bold15px arial,sans-serif;
+    text-shadow:salmon;
+  }
