@@ -6,13 +6,16 @@ import DownloadCertificate from './components/DownloadCertificate/DownloadCertic
 function App() {
   
   return (
+    
+  
     <div className="content">   
     <Routes>
-      <Route exact path= "/signIn" element={<SignIn /> }/>
+      <Route exact path= "/" element={<SignIn /> }/>
       <Route exact path= "/confirm" element={<ConfirmOTP /> }/>
       <Route exact path= "/download" element={<DownloadCertificate /> }/>
     </Routes>
     </div >
+   
   
   );
 }

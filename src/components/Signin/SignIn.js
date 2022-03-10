@@ -38,7 +38,6 @@ class SignIn extends React.Component {
 
   // }
   handleMobileChange = (e) => {
-    console.log(e.target.value);
     this.setState({ phone: e.target.value });
   }
 
